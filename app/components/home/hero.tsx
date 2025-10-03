@@ -18,13 +18,13 @@ export default function Hero() {
           {/* Colonne texte */}
           <div className="flex-1 max-w-3xl text-center lg:text-left">
             <h1 className="text-5xl font-bold text-white mb-4 mt-14">
-              Solutions de<br />paiement simples<br />pour l'Afrique digitale
+              Solutions de<br />paiement simples<br />pour l&apos;Afrique digitale
             </h1>
             <p className="text-xl text-white">
               Simplifiez vos transactions, développez votre entreprise
             </p>
             <p className="text-xl text-white mb-6">
-              et participez à l'inclusion<br />financière avec nos solutions de paiement omnicanal.
+              et participez à l&apos;inclusion<br />financière avec nos solutions de paiement omnicanal.
             </p>
 
             {/* Boutons */}

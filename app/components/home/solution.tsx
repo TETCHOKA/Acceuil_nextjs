@@ -94,7 +94,7 @@ export default function Solutions() {
               Paiements en Ligne
             </h3>
             <p className="text-gray-600 text-sm mb-6 leading-relaxed">
-              Offrez à vos clients une expérience d'achat en ligne simple et sécurisée.
+              Offrez à vos clients une expérience d&apos;achat en ligne simple et sécurisée.
             </p>
             <a href="#" className="text-orange-500 font-semibold text-sm inline-flex items-center hover:text-orange-600">
               En savoir plus

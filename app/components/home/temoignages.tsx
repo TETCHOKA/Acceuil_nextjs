@@ -30,7 +30,7 @@ export default function Temoignages() {
               </div>
             </div>
             <p className="text-gray-700 leading-relaxed">
-              "AfriPay a transformé la façon dont nous gérons les paiements. Nos clients peuvent maintenant payer comme ils le souhaitent, et nous recevons les fonds instantanément."
+              &quot;AfriPay a transformé la façon dont nous gérons les paiements. Nos clients peuvent maintenant payer comme ils le souhaitent, et nous recevons les fonds instantanément.&quot;
             </p>
           </div>
 
@@ -48,7 +48,7 @@ export default function Temoignages() {
               </div>
             </div>
             <p className="text-gray-700 leading-relaxed">
-              "Le programme de financement d'AfriPay nous a permis d'agrandir notre boutique en ligne. Le processus était simple et les fonds disponibles en 24h."
+              &quot;Le programme de financement d&apos;AfriPay nous a permis d&apos;agrandir notre boutique en ligne. Le processus était simple et les fonds disponibles en 24h.&quot;
             </p>
           </div>
 
@@ -66,7 +66,7 @@ export default function Temoignages() {
               </div>
             </div>
             <p className="text-gray-700 leading-relaxed">
-              "Nos clients adorent notre programme de fidélité. C'est simple à gérer pour nous et valorisant pour eux. Nos ventes ont augmenté de 30% depuis la mise en place."
+              &quot;Nos clients adorent notre programme de fidélité. C&apos;est simple à gérer pour nous et valorisant pour eux. Nos ventes ont augmenté de 30% depuis la mise en place.&quot;
             </p>
           </div>
 

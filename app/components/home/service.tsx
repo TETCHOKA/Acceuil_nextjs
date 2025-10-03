@@ -24,7 +24,7 @@ export default function Services() {
   </svg>
 </div>
             <h3 className="text-sm font-bold text-gray-900 mb-4">
-              Financement d'Entreprise
+              Financement d&apos;Entreprise
             </h3>
             <p className="text-gray-600 text-sm mb-6 leading-relaxed">
               Accédez à des fonds en moins de 24h pour développer votre activité.

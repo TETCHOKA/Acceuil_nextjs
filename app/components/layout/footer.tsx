@@ -48,7 +48,7 @@ export default function Footer() {
               </li>
               <li>
                 <a href="/financement" className="text-gray-400 text-sm hover:text-white transition-colors">
-                  Financement d'Entreprise
+                  Financement d&apos;Entreprise
                 </a>
               </li>
               <li>
@@ -78,7 +78,7 @@ export default function Footer() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
-                <span className="text-gray-400 text-sm">123 Avenue de l'Innovation, Dakar, Sénégal</span>
+                <span className="text-gray-400 text-sm">123 Avenue de l&apos;Innovation, Dakar, Sénégal</span>
               </li>
               <li className="flex items-center gap-2">
                 <svg className="w-5 h-5 text-orange-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -108,7 +108,7 @@ export default function Footer() {
                 className="flex-1 px-4 py-2 bg-gray-800 text-white text-sm rounded-lg border border-gray-700 focus:outline-none focus:border-orange-500"
               />
               <button className=" text-white px-6 py-2 rounded-lg hover:bg-orange-600 transition-colors font-semibold text-sm" style={{ backgroundColor: '#F5560D' }}>
-                S'inscrire
+                S&apos;inscrire
               </button>
             </div>
           </div>
@@ -126,7 +126,7 @@ export default function Footer() {
                 Politique de confidentialité
               </a>
               <a href="/conditions" className="text-gray-400 text-sm hover:text-white transition-colors">
-                Conditions d'utilisation
+                Conditions d&apos;utilisation
               </a>
               <a href="/mentions" className="text-gray-400 text-sm hover:text-white transition-colors">
                 Mentions légales

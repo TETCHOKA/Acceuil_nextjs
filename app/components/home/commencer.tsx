@@ -21,7 +21,7 @@ export default function Commencer() {
         
         {/* Description */}
         <p className="text-xl text-white mb-10 leading-relaxed">
-          Rejoignez des milliers d'entreprises qui font confiance à AfriPay pour leurs solutions de<br/> paiement et de financement.
+          Rejoignez des milliers d&apos;entreprises qui font confiance à AfriPay pour leurs solutions de<br/> paiement et de financement.
         </p>
         
         {/* Bouton CTA */}
