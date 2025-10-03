@@ -44,7 +44,7 @@ export default function Hero() {
           {/* Colonne image */}
           <div className="flex justify-center lg:justify-end flex-1">
             <img
-              src="/images/container.png"
+              src="/images/Container.png"
               alt="Description"
               className="w-full max-w-xl rounded-lg shadow-2xl mt-8"
             />

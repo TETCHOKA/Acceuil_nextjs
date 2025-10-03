@@ -20,7 +20,7 @@ export default function Temoignages() {
           <div className="bg-white rounded-xl shadow-sm p-8">
             <div className="flex items-center gap-4 mb-6">
               <img 
-                src="/images/image1.png" 
+                src="/images/Image1.png" 
                 alt="Aminata Diop" 
                 className="w-16 h-16 rounded-full object-cover"
               />
@@ -38,7 +38,7 @@ export default function Temoignages() {
           <div className="bg-white rounded-xl shadow-sm p-8">
             <div className="flex items-center gap-4 mb-6">
               <img 
-                src="/images/image.png" 
+                src="/images/Image.png" 
                 alt="Kofi Mensah" 
                 className="w-16 h-16 rounded-full object-cover"
               />
@@ -56,7 +56,7 @@ export default function Temoignages() {
           <div className="bg-white rounded-xl shadow-sm p-8">
             <div className="flex items-center gap-4 mb-6">
               <img 
-                src="/images/image3.png" 
+                src="/images/Image3.png" 
                 alt="Fatou Ndiaye" 
                 className="w-16 h-16 rounded-full object-cover"
               />
