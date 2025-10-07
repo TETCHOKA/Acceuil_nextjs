@@ -1,5 +1,4 @@
 'use client';
-
 import { useState } from 'react';
 
 export default function Header() {
@@ -48,6 +47,9 @@ export default function Header() {
             <a href="/" className="block py-2 text-gray-700 hover:text-orange-500">Accueil</a>
             <a href="/solutions" className="block py-2 text-gray-700 hover:text-orange-500">Solutions de Paiements</a>
             <a href="/financement" className="block py-2 text-gray-700 hover:text-orange-500">Financement</a>
+            <a href="/financement" className="block py-2 text-gray-700 hover:text-orange-500">Programmes de Fidélité</a>
+            <a href="/financement" className="block py-2 text-gray-700 hover:text-orange-500">Payouts & Incentives</a>
+            <a href="/financement" className="block py-2 text-gray-700 hover:text-orange-500">Support</a>
             <a href="/contact" className="block py-2 text-gray-700 hover:text-orange-500">Contactez-nous</a>
             <button className="w-full bg-orange-500 text-white px-6 py-2 rounded-lg mt-2">
               Commencer
