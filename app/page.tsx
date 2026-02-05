@@ -20,7 +20,7 @@ export default function Acceuil(){
         <Statistiques/>
         <Temoignages/>
         <Commencer/>
-        <Footern/>
+        <Footer/>
         
         
     </>
