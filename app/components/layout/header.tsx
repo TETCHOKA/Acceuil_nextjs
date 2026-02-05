@@ -1,4 +1,5 @@
 'use client';
+import Link from 'next/link';
 import { useState } from 'react';
 
 export default function Header() {
@@ -10,19 +11,19 @@ export default function Header() {
         <div className="flex justify-between items-center h-16">
           
           {/* Logo */}
-          <a href="/" className="text-2xl font-bold" style={{ color: '#F5560D' }}>
+          <Link href="/" className="text-2xl font-bold" style={{ color: '#F5560D' }}>
             AfriPay
-          </a>
+          </Link>
 
           {/*barre de navigation */}
           <nav className="hidden md:flex space-x-6">
-            <a href="/" className="text-gray-700 hover:text-orange-500">Accueil</a>
-            <a href="/solutions" className="text-gray-700 hover:text-orange-500">Solutions de Paiements</a>
-            <a href="/financement" className="text-gray-700 hover:text-orange-500">Financement</a>
-            <a href="/fidelite" className="text-gray-700 hover:text-orange-500">Programmes de Fidélité</a>
-            <a href="/payouts" className="text-gray-700 hover:text-orange-500">Payouts & Incentives</a>
-            <a href="/support" className="text-gray-700 hover:text-orange-500">Support</a>
-            <a href="/contact" className="text-gray-700 hover:text-orange-500">Contactez-nous</a>
+            <Link href="/" className="text-gray-700 hover:text-orange-500">Accueil</Link>
+            <Link href="/solutions" className="text-gray-700 hover:text-orange-500">Solutions de Paiements</Link>
+            <Link href="/financement" className="text-gray-700 hover:text-orange-500">Financement</Link>
+            <Link href="/fidelite" className="text-gray-700 hover:text-orange-500">Programmes de Fidélité</Link>
+            <Link href="/payouts" className="text-gray-700 hover:text-orange-500">Payouts & Incentives</Link>
+            <Link href="/support" className="text-gray-700 hover:text-orange-500">Support</Link>
+            <Link href="/contact" className="text-gray-700 hover:text-orange-500">Contactez-nous</Link>
           </nav>
 
           {/* Bouton */}
@@ -31,9 +32,12 @@ export default function Header() {
           </button>
 
           {/* Menu burger */}
-          <button 
+          <button
+            type="button"
             onClick={() => setMenuOpen(!menuOpen)}
             className="md:hidden text-gray-700"
+            title="Ouvrir le menu"
+            aria-label="Ouvrir le menu"
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
@@ -44,13 +48,13 @@ export default function Header() {
         {/* Menu Mobile Ouvert */}
         {menuOpen && (
           <nav className="md:hidden pb-4">
-            <a href="/" className="block py-2 text-gray-700 hover:text-orange-500">Accueil</a>
-            <a href="/solutions" className="block py-2 text-gray-700 hover:text-orange-500">Solutions de Paiements</a>
-            <a href="/financement" className="block py-2 text-gray-700 hover:text-orange-500">Financement</a>
-            <a href="/financement" className="block py-2 text-gray-700 hover:text-orange-500">Programmes de Fidélité</a>
-            <a href="/financement" className="block py-2 text-gray-700 hover:text-orange-500">Payouts & Incentives</a>
-            <a href="/financement" className="block py-2 text-gray-700 hover:text-orange-500">Support</a>
-            <a href="/contact" className="block py-2 text-gray-700 hover:text-orange-500">Contactez-nous</a>
+            <Link href="/" className="block py-2 text-gray-700 hover:text-orange-500">Accueil</Link>
+            <Link href="/solutions" className="block py-2 text-gray-700 hover:text-orange-500">Solutions de Paiements</Link>
+            <Link href="/financement" className="block py-2 text-gray-700 hover:text-orange-500">Financement</Link>
+            <Link href="/financement" className="block py-2 text-gray-700 hover:text-orange-500">Programmes de Fidélité</Link>
+            <Link href="/financement" className="block py-2 text-gray-700 hover:text-orange-500">Payouts & Incentives</Link>
+            <Link href="/financement" className="block py-2 text-gray-700 hover:text-orange-500">Support</Link>
+            <Link href="/contact" className="block py-2 text-gray-700 hover:text-orange-500">Contactez-nous</Link>
             <button className="w-full bg-orange-500 text-white px-6 py-2 rounded-lg mt-2">
               Commencer
             </button>
@@ -61,4 +65,5 @@ export default function Header() {
 
     
   );
+  
 }

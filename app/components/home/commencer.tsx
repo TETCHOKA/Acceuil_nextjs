@@ -11,7 +11,7 @@ export default function Commencer() {
 };
 
   return (
-    <section className="py-20 "style={{ backgroundColor: '#F5560D' }}>
+    <section className="py-20 bg-brandOrange"style={{ backgroundColor: '#F5560D' }}>
       <div className="max-w-4xl mx-auto px-4 text-center">
         
         {/* Titre */}

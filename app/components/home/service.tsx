@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Services() {
   return (
     <section className="py-20 bg-gradient-to-br from-amber-50 to-orange-50">
@@ -29,12 +31,12 @@ export default function Services() {
             <p className="text-gray-600 text-sm mb-6 leading-relaxed">
               Accédez à des fonds en moins de 24h pour développer votre activité.
             </p>
-            <a href="#" className="text-orange-500 font-semibold text-sm inline-flex items-center hover:text-orange-600">
+            <Link href="#" className="text-orange-500 font-semibold text-sm inline-flex items-center hover:text-orange-600">
               En savoir plus
               <svg className="w-4 h-4 ml-2 text-orange-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M5 12h14m0 0l-4-4m4 4l-4 4" />
                 </svg>
-            </a>
+            </Link>
           </div>
 
           {/* Card 2 - Programmes de Fidélité */}
@@ -50,12 +52,12 @@ export default function Services() {
             <p className="text-gray-600 text-sm mb-6 leading-relaxed">
               Fidélisez vos clients avec des cartes cadeaux et programmes de points.
             </p>
-            <a href="#" className="text-orange-500 font-semibold text-sm inline-flex items-center hover:text-orange-600">
+            <Link href="#" className="text-orange-500 font-semibold text-sm inline-flex items-center hover:text-orange-600">
               En savoir plus
               <svg className="w-4 h-4 ml-2 text-orange-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M5 12h14m0 0l-4-4m4 4l-4 4" />
                 </svg>
-            </a>
+            </Link>
           </div>
 
           {/* Card 3 - Payouts & Incentives */}
@@ -71,12 +73,12 @@ export default function Services() {
             <p className="text-gray-600 text-sm mb-6 leading-relaxed">
               Gérez vos paiements sortants et motivez vos équipes commerciales.
             </p>
-            <a href="#" className="text-orange-500 font-semibold text-sm inline-flex items-center hover:text-orange-600">
+            <Link href="#" className="text-orange-500 font-semibold text-sm inline-flex items-center hover:text-orange-600">
               En savoir plus
               <svg className="w-4 h-4 ml-2 text-orange-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M5 12h14m0 0l-4-4m4 4l-4 4" />
                 </svg>
-            </a>
+            </Link>
           </div>
 
           {/* Card 4 - Parrainer & Gagner */}
@@ -92,12 +94,12 @@ export default function Services() {
             <p className="text-gray-600 text-sm mb-6 leading-relaxed">
               Développez votre réseau grâce à notre programme de parrainage.
             </p>
-            <a href="#" className="text-orange-500 font-semibold text-sm inline-flex items-center hover:text-orange-600">
+            <Link href="#" className="text-orange-500 font-semibold text-sm inline-flex items-center hover:text-orange-600">
               En savoir plus
               <svg className="w-4 h-4 ml-2 text-orange-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M5 12h14m0 0l-4-4m4 4l-4 4" />
                 </svg>
-            </a>
+            </Link>
           </div>
 
         </div>

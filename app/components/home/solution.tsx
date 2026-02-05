@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Solutions() {
   return (
     <section className="py-20 bg-gray-50">
@@ -29,13 +31,13 @@ export default function Solutions() {
             <p className="text-gray-600 text-sm mb-2 leading-relaxed">
               Acceptez les paiements par carte en toute simplicité avec nos terminaux POS modernes et fiables.
             </p>
-            <a href="#" className="text-orange-500 font-semibold text-sm inline-flex items-center hover:text-orange-600">
+            <Link href="#" className="text-orange-500 font-semibold text-sm inline-flex items-center hover:text-orange-600">
               En savoir plus
                 <svg className="w-4 h-4 ml-2 text-orange-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M5 12h14m0 0l-4-4m4 4l-4 4" />
                 </svg>
 
-            </a>
+            </Link>
           </div>
 
           {/* Card 2 - Paiements Intégrés */}
@@ -63,12 +65,12 @@ export default function Solutions() {
             <p className="text-gray-600 text-sm mb-6 leading-relaxed">
               Intégrez nos API et passerelles de paiement à votre système existant.
             </p>
-            <a href="#" className="text-orange-500 font-semibold text-sm inline-flex items-center hover:text-orange-600">
+            <Link href="#" className="text-orange-500 font-semibold text-sm inline-flex items-center hover:text-orange-600">
               En savoir plus
               <svg className="w-4 h-4 ml-2 text-orange-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M5 12h14m0 0l-4-4m4 4l-4 4" />
                 </svg>
-            </a>
+            </Link>
           </div>
 
           {/* Card 3 - Paiements en Ligne */}
@@ -96,12 +98,12 @@ export default function Solutions() {
             <p className="text-gray-600 text-sm mb-6 leading-relaxed">
               Offrez à vos clients une expérience d&apos;achat en ligne simple et sécurisée.
             </p>
-            <a href="#" className="text-orange-500 font-semibold text-sm inline-flex items-center hover:text-orange-600">
+            <Link href="#" className="text-orange-500 font-semibold text-sm inline-flex items-center hover:text-orange-600">
               En savoir plus
               <svg className="w-4 h-4 ml-2 text-orange-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M5 12h14m0 0l-4-4m4 4l-4 4" />
                 </svg>
-            </a>
+            </Link>
           </div>
 
           {/* Card 4 - Paiements Alternatifs */}
@@ -117,12 +119,12 @@ export default function Solutions() {
             <p className="text-gray-600 text-sm mb-2 leading-relaxed">
               QR Code, paiements différés, et solutions innovantes pour plus de flexibilité.
             </p>
-            <a href="#" className="text-orange-500 font-semibold text-sm inline-flex items-center hover:text-orange-600">
+            <Link href="#" className="text-orange-500 font-semibold text-sm inline-flex items-center hover:text-orange-600">
               En savoir plus
               <svg className="w-4 h-4 ml-2 text-orange-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M5 12h14m0 0l-4-4m4 4l-4 4" />
                 </svg>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
